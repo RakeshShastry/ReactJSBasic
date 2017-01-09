@@ -1,0 +1,11 @@
+body{
+    background-color: cadetblue;
+}
+
+.counter{
+    border: 2px solid white;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background-color: cornsilk;
+}
