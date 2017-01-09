@@ -1,5 +1,7 @@
 import React from 'react';
+import './box.css'
 
 export default props => {
-    return <h3>I am a Box</h3>;
+    const str = `rgba(${props.colors.r} , ${props.colors.g}, ${props.colors.b}, ${props.colors.a})`;
+    return <div style={{backgroundColor:str }} className="innerBox"></div>;
 };
