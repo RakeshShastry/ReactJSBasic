@@ -27,7 +27,7 @@ export default class Timer extends React.Component{
             <div className="timerCounter">
               <h1>Timer</h1>
               <div>
-                <input ref={node => this.num=node}type="text" />
+                <input ref={node => this.num=node} type="text" />
                 <button className="goButton" onClick={this.go}>Go!</button>
                 <button className="goButton" onClick={this.stop}>Stop!</button>
               </div>
